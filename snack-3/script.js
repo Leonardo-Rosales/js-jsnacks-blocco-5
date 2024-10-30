@@ -12,4 +12,9 @@ numbers.forEach((num) => {
 
 console.log(numbersIncrementedByOne)
 
+// Seconda versione
+
+const incrementedNumbers = numbers.map(number => number + 1);
+console.log(incrementedNumbers);
+
 
