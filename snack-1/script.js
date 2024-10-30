@@ -4,4 +4,5 @@ const names = ['Edoardo', 'Simone', 'Francesco'];
 // Risultato: 'Edoardo', 'Simone', 'Francesco'
 
 
-names.forEach(console.log)
+names.forEach(name => console.log(name))
+
